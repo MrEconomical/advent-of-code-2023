@@ -120,6 +120,5 @@ int main() {
     for (int p = 0; p < plays.size(); p ++) {
         total += plays[p].bid * (plays.size() - p);
     }
-
     std::cout << "Total winnings: " << total << "\n";
 }
